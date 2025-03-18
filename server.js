@@ -8,7 +8,8 @@ const N_NUMBERS = 17;
 const origins = [
     /https?:\/\/localhost(:\d+)?/,
     "https://www.google.com",
-    /^https:\/\/(.*\.)*vccs\.edu$/
+    /^https:\/\/(.*\.)*vccs\.edu$/,
+    /^https?:\/\/stanpanman\.github\.io\/portfolio-web-scripting\/.*$/
 ];
 const corsOpts = {
     origin: origins,
