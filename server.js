@@ -9,7 +9,8 @@ const origins = [
     /https?:\/\/localhost(:\d+)?/,
     "https://www.google.com",
     /^https:\/\/(.*\.)*vccs\.edu$/,
-    /^https?:\/\/stanpanman\.github\.io\/portfolio-web-scripting\/.*$/
+    /^https?:\/\/stanpanman\.github\.io\/portfolio-web-scripting\/.*$/,
+    /^https:\/\/stanpanman\.github\.io(\/.*)?$/
 ];
 const corsOpts = {
     origin: origins,
